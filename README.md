@@ -41,11 +41,21 @@ Skills shown: Salesforce Flow Builder, Process Automation, Sales Operations
 
 ---
 
+### M1 - Revenue Forecast Model
+`M1-Revenue-Forecast/`
+
+A full revenue forecast model built across three tools. 22 opportunities were entered directly into Salesforce across AMER, EMEA and APAC, then exported into a structured Excel workbook with weighted probability calculations and three scenario models: Best Case, Worst Case and Commit. Power BI connects to the Excel data model and visualises pipeline health, quota attainment by rep, forecast vs target, and scenario comparisons across all regions.
+
+Five DAX measures were built from scratch to handle closed revenue tracking, quota attainment percentages, and gap to quota per rep.
+
+Skills shown: Salesforce Reporting, Excel Financial Modelling, Power BI, DAX, Sales Analytics
+
+---
+
 ## What Is Coming
 
 These projects are planned for the same NovaTech org and will be added to this repo as they are completed:
 
-- **M1** - Revenue Forecast Model (Salesforce data in Excel and Power BI)
 - **M7** - Sales Process Automation with additional Flow builds
 - **T-M1** - Salesforce connected directly to Tableau for live reporting
 
@@ -57,7 +67,7 @@ These projects are planned for the same NovaTech org and will be added to this r
 - Salesforce Flow Builder
 - Salesforce Setup (Roles, OWDs, Permission Sets, Sharing Rules)
 - Microsoft Excel
-- Power BI (upcoming)
+- Power BI
 - Tableau (upcoming)
 
 ---
